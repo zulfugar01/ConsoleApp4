@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class Product
+    class Product:IMarketableProduct
     {
         public Product[] products = new Product[0];
         public string Name { get; set; }
