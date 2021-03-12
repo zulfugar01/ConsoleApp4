@@ -19,5 +19,35 @@ namespace ConsoleApp4
             _id++;
             Id = _id;
         }
+        
+        public void AddSales()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string AllSales()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string SalesForDate()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string SalesForExactDate()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string SalesForPrice()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string SalesForNumber()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
