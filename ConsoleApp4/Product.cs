@@ -26,5 +26,17 @@ namespace ConsoleApp4
             Price = price;
             Number = number;
         }
+        public void ShowProducts()
+        {
+            foreach (var item in products)
+            {
+                Console.WriteLine(item.Name);
+            }
+        }
+
+        public string ProductSales()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
