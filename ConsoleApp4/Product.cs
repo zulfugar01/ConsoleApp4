@@ -38,5 +38,37 @@ namespace ConsoleApp4
         {
             throw new NotImplementedException();
         }
+        public void AddProduct(Product product)
+        {
+            Console.WriteLine("--->Yeni mehsul elave et<---");
+            Console.WriteLine(">Mehsulun Adini Daxil Edin<");
+            Name = Console.ReadLine();
+            Console.WriteLine("Mehsulun Qiymetini Daxil Edin");
+            Price = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Mehsulun Sayini Daxil Edin");
+            Number = Convert.ToInt32(Console.ReadLine());
+            Array.Resize(ref products, products.Length + 1);
+            products[products.Length - 1] = product;
+        }
+
+        public void ChangeProductInfo()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string ProductForCategory()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string ProductForPrice()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ShowProductForName()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
