@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class IMarketableProduct
+    interface IMarketableProduct
     {
     }
 }
